@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+         maximum-scale=5"
+    />
+    <link rel="icon" href="devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Devchallenges - Check-out Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="checkout-container">
+        <div class="contact-container">
+          <h1>Checkout</h1>
+          <h4>Contact Information</h4>
+          <label>Email</label>
+          <div class="input-wrapper">
+            <span class="material-symbols-outlined"> mail </span>
+            <input placeholder="Enter your email..." />
+          </div>
+          <label>Phone</label>
+          <div class="input-wrapper">
+            <span class="material-symbols-outlined"> phone </span>
+            <input placeholder="Enter your phone..." />
+          </div>
+        </div>
+        <div class="Address-container">
+          <h4>Shipping address</h4>
+          <label>Full name</label>
+          <div class="input-wrapper">
+            <span class="material-symbols-outlined"> account_circle </span>
+            <input placeholder="Your name..." value="Rodney Cotton" />
+          </div>
+          <label>Address</label>
+          <div class="input-wrapper">
+            <span class="material-symbols-outlined"> home </span>
+            <input placeholder="Your address.." />
+          </div>
+          <label>City</label>
+          <div class="input-wrapper">
+            <span class="material-symbols-outlined"> location_city </span>
+            <input placeholder="Your city.." />
+          </div>
+
+          <div class="address-sub-container">
+            <div class="address-sub-wrapper">
+              <label>Country</label>
+              <div class="input-wrapper">
+                <span class="material-symbols-outlined"> public </span>
+                <select placeholder="Your address..">
+                  <option value="">Your country..</option>
+                </select>
+              </div>
+            </div>
+            <div class="address-sub-wrapper">
+              <label>Postal code</label>
+              <div class="input-wrapper">
+                <span class="material-symbols-outlined">
+                  markunread_mailbox
+                </span>
+                <input placeholder="Your city.." />
+              </div>
+            </div>
+          </div>
+
+          <div class="save-info">
+            <input
+              class="save-info-checkbox"
+              type="checkbox"
+              name="save-info-checkbox"
+              id="save-info-checkbox"
+            />
+            <label for="save-info">Save this information for next time</label>
+          </div>
+        </div>
+        <div class="Submit">
+          <input class="submit" type="button" value="Continue" />
+        </div>
+      </div>
+      <div class="cart-container">
+        <div class="cart-item-wrapper">
+          <img class="item-image" src="photo1.png" alt="item1" />
+          <h2>Vintage Backbag</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
